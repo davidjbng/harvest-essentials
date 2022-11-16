@@ -30,13 +30,15 @@ const observer = new MutationObserver((mutations) => {
 });
 
 // @ts-ignore
-observer.observe(document.getElementById("day-view-entries"), {
-  attributes: true,
-  childList: true,
-  subtree: true,
-});
+// observer.observe(document.getElementById("day-view-entries"), {
+//   attributes: true,
+//   childList: true,
+//   subtree: true,
+// });
 
-highlightMissingNotes();
+// setTimeout(() => {
+//   highlightMissingNotes();
+// }, 5000);
 
 function highlightMissingNotes() {
   const withoutNotes = getMissingNoteEntries(timeEntries);

@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.harvestapp.com/*"],
-      "js": ["content.js"]
+      "css": ["content.css"]
     }
   ],
   "action": {
