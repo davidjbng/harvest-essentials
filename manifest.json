@@ -5,8 +5,8 @@
   "content_scripts": [
     {
       "matches": ["https://*.harvestapp.com/*"],
-      "css": ["content.css"],
-      "js": ["content.js"]
+      "css": ["src/content.css"],
+      "js": ["src/content.js"]
     }
   ],
   "action": {

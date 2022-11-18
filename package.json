@@ -2,11 +2,13 @@
   "name": "harvest-essentials",
   "version": "1.0.0",
   "scripts": {
-    "dev": "web-ext run -t chromium --start-url \"chrome://extensions\" --source-dir ."
+    "dev": "web-ext run -t chromium --start-url \"chrome://extensions\" --source-dir .",
+    "test": "vitest"
   },
   "license": "ISC",
   "devDependencies": {
     "chrome-types": "^0.1.140",
+    "vitest": "^0.25.2",
     "web-ext": "^7.3.0"
   }
 }
