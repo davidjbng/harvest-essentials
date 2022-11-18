@@ -18,7 +18,7 @@
     "useDefineForClassFields": false,
     "skipLibCheck": true,
     "allowJs": true,
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "chrome-types"]
   },
-  "include": ["src/**/*.js"]
+  "include": ["src/**/*.js", "src/**/*.mjs"]
 }

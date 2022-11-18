@@ -9,6 +9,12 @@
       "js": ["src/content.js"]
     }
   ],
+  "web_accessible_resources": [
+    {
+      "matches": ["https://*.harvestapp.com/*"],
+      "resources": ["node_modules/*"]
+    }
+  ],
   "action": {
     "default_popup": "popup.html"
   }
