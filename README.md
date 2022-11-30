@@ -1,4 +1,6 @@
-# Vanilla Webextension
+# Harvest Essentials
+
+Experiments to extend HarvestApp with custom webextension
 
 ## Getting Started
 
