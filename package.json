@@ -11,8 +11,5 @@
     "chrome-types": "^0.1.140",
     "vitest": "^0.25.2",
     "web-ext": "^7.3.0"
-  },
-  "dependencies": {
-    "@js-temporal/polyfill": "^0.4.3"
   }
 }
